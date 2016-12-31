@@ -1,0 +1,33 @@
+{
+  "name": "how-to-express",
+  "version": "0.0.0",
+  "description": "Opinionated personal template for an express.js http service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard && mocha components/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilday/how-to-express.git"
+  },
+  "author": "Johnathan Gilday <me@johnathangilday.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gilday/how-to-express/issues"
+  },
+  "homepage": "https://github.com/gilday/how-to-express#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0",
+    "standard": "^8.6.0",
+    "supertest": "^2.0.1"
+  }
+}
